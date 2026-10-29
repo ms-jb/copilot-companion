@@ -213,6 +213,11 @@ and check on it between questions; a polling loop in the foreground is a block.
    - Tell the user, in one line, that the link only works while the Copilot app stays open on this
      computer: use an always-on machine, or turn on **Close to taskbar** so closing the window
      keeps the app (and the link) running.
+   - **Every prompt that asks the user to open the link shows the QR code or names the button.**
+     If the QR code is not on screen, say in the question that the canvas has an **Open on phone**
+     button that shows the QR code and link, and to click it. If the QR file exists, open it in
+     the side panel before asking and say so in the question. Never leave a bare URL as the only
+     way in.
    - Ask the user to send a message through the link and confirm it arrives in this conversation.
      Once it has, read [references/phone.md](references/phone.md): Add to
      Home Screen, notifications.
